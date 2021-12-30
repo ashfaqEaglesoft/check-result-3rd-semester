@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Check VU Result</title>
+</head>
+
+<body>
+    <div class="container Topheading">
+        <h3>Check Result BSCS 3rd Semester</h3>
+    </div>
+
+    <div class="container">
+        <div class="formbox" onsubmit="return false">
+            
+            <form name="rform">
+
+                <!-- cs304  -->
+                <hr>
+                <label for="StudentID">Enter CS304 Quizes Marks*</label><br>
+                <input type="number" name="cs304_quiz" placeholder="Enter CS304 Quizes Marks"><br>
+                <label for="StudentID">Enter CS304 Assignment Marks*</label><br>
+                <input type="number" name="cs304_ass" placeholder="Enter CS304 Assignment Marks"><br>
+                <label for="StudentID">Enter CS304 GDB Marks*</label><br>
+                <input type="number" name="cs304_GDB" placeholder="Enter CS304 GDB Marks"><br>
+                <label for="StudentID">Enter CS304 MidTerm Marks*</label><br>
+                <input type="number" name="cs304_mid" placeholder="Enter CS304 MidTerm Marks"><br>
+
+                <!-- CS301  -->
+                <hr>
+                <label for="StudentID">Enter CS301 Quizes Marks*</label><br>
+                <input type="number" name="cs301_quiz" placeholder="Enter CS301 Quizes Marks"><br>
+                <label for="StudentID">Enter CS301 Assignment Marks*</label><br>
+                <input type="number" name="cs301_ass" placeholder="Enter CS301 Assignment Marks"><br>
+                <label for="StudentID">Enter CS301 GDB Marks*</label><br>
+                <input type="number" name="cs301_GDB" placeholder="Enter CS301 GDB Marks"><br>
+                <label for="StudentID">Enter CS301 MidTerm Marks*</label><br>
+                <input type="number" name="cs301_mid" placeholder="Enter CS301 MidTerm Marks"><br>
+
+                <!-- CS302  -->
+                <hr>
+                <label for="StudentID">Enter CS302 Quizes Marks*</label><br>
+                <input type="number" name="cs302_quiz" placeholder="Enter CS302 Quizes Marks"><br>
+                <label for="StudentID">Enter CS302 Assignment Marks*</label><br>
+                <input type="number" name="cs302_ass" placeholder="Enter CS302 Assignment Marks"><br>
+                <label for="StudentID">Enter CS302 GDB Marks*</label><br>
+                <input type="number" name="cs302_GDB" placeholder="Enter CS302 GDB Marks"><br>
+                <label for="StudentID">Enter CS302 MidTerm Marks*</label><br>
+                <input type="number" name="cs302_mid" placeholder="Enter CS302 MidTerm Marks"><br>
+
+                <!-- CS601  -->
+                <hr>
+                <label for="StudentID">Enter CS601 Quizes Marks*</label><br>
+                <input type="number" name="cs601_quiz" placeholder="Enter CS601 Quizes Marks"><br>
+                <label for="StudentID">Enter CS601 Assignment Marks*</label><br>
+                <input type="number" name="cs601_ass" placeholder="Enter CS601 Assignment Marks"><br>
+                <label for="StudentID">Enter CS601 GDB Marks*</label><br>
+                <input type="number" name="cs601_GDB" placeholder="Enter CS601 GDB Marks"><br>
+                <label for="StudentID">Enter CS601 MidTerm Marks*</label><br>
+                <input type="number" name="cs601_mid" placeholder="Enter CS601 MidTerm Marks"><br>
+
+                <!-- phy101  -->
+                <hr>
+                <label for="StudentID">Enter phy101 Quizes Marks*</label><br>
+                <input type="number" name="phy101_quiz" placeholder="Enter phy101 Quizes Marks"><br>
+                <label for="StudentID">Enter phy101 Assignment Marks*</label><br>
+                <input type="number" name="phy101_ass" placeholder="Enter phy101 Assignment Marks"><br>
+                <label for="StudentID">Enter phy101 GDB Marks*</label><br>
+                <input type="number" name="phy101_GDB" placeholder="Enter phy101 GDB Marks"><br>
+                <label for="StudentID">Enter phy101 MidTerm Marks*</label><br>
+                <input type="number" name="phy101_mid" placeholder="Enter phy101 MidTerm Marks"><br>
+
+                <button type="submit" class="btn" onclick="checkResult()">Check Result</button>
+                <input type="submit" class="btn">
+
+            </form>
+        </div>
+    </div>
+    <div class="container Topheading">
+        <script>
+            const d = new Date();
+            let year = d.getFullYear();
+            document.write(" copy rights :"+ year+" by Eaglesoft");
+        </script>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
